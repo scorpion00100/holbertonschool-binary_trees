@@ -22,7 +22,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 	else
 	{
-		/*parent->left = new_node;*/ /*because segmentation fault*/i
+		/*parent->left = new_node;*/ /*because segmentation fault*/
 		new_node->left = parent->left;
 		parent->left = new_node;
 		new_node->left->parent = new_node;
