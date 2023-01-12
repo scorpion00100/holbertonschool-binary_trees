@@ -39,7 +39,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 /**
  * binary_tree_is_perfect - check if a binary tree is perfect
  * @tree: pointer to the root node of the tree to check
- * Return: 1 if tree is balanced, 0 otherwise,
+ * Return: 1 if tree balanced, 0 otherwise,
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
